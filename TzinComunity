@@ -1,0 +1,79 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tzin Comunity</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0d0d0d;
+      color: white;
+      text-align: center;
+    }header {
+  background: linear-gradient(90deg, #ff0000, #1a1a1a);
+  padding: 20px;
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.banner img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.tagline {
+  margin-top: 15px;
+  font-size: 1.2em;
+  color: #ff4d4d;
+}
+
+.links {
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 400px;
+}
+
+.link-button {
+  background: #1a1a1a;
+  color: white;
+  padding: 15px 30px;
+  border: 2px solid red;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.link-button:hover {
+  background: red;
+  color: black;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 10px;
+  font-size: 0.9em;
+  color: #777;
+}
+
+  </style>
+</head>
+<body>
+  <header>Tzin Comunity</header>  <div class="banner">
+    <img src="banner.jpg" alt="Banner Tzin Comunity">
+  </div>  <div class="tagline">Mods, Respeito e Facção. Aqui é Tzin.</div>  <div class="links">
+    <a href="#" class="link-button">🔗 Grupo do WhatsApp</a>
+    <a href="#" class="link-button">🎮 Canal no YouTube</a>
+    <a href="#" class="link-button">💬 Servidor do Discord</a>
+    <a href="#" class="link-button">📦 Grupo de Mods</a>
+  </div>  <footer>© 2025 Tzin Comunity. Todos os direitos reservados.</footer>
+</body>
+</html>
